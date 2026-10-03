@@ -50,6 +50,8 @@ The complete system must run through Docker, including database, api, and fronte
 - `architecture.md` — architecture and layer definitions
 - `backend.md` — backend rules and Laravel structure
 - `frontend.md` — React responsibilities and UI boundaries
+- `phase-5-api.md` — Phase 5 API implementation scope, tests, and acceptance criteria
+- `phase-6-frontend.md` — Phase 6 React workflows, UI states, tests, and acceptance criteria
 - `migration.md` — migration, schema, and seed strategy
 - `docker.md` — Docker runtime and startup flow
 - `adr/` — architecture decisions aligned to the implementation stack

@@ -36,20 +36,26 @@
 
 ## Phase 5: API exposure
 
+- follow `phase-5-api.md` and the approved API contract
 - create routes
 - create controllers
 - validate request payloads
 - translate domain exceptions into API errors
 - ensure authorization policies work correctly
+- add endpoint feature tests, including transaction rollback and role enforcement
+- keep HTTP controllers and resources in the Presentation layer
 
 ## Phase 6: Frontend implementation
 
+- follow `phase-6-frontend.md` and consume the approved API contract
 - auth flow
 - catalog flow
 - product management flow
 - sales flow
 - report flow
 - UI validation and feedback
+- cover loading, empty, validation, authorization, network, and server-error states
+- verify the primary user flows against the Dockerized API
 
 ## Phase 7: Docker and runtime validation
 
